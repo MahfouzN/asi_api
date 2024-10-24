@@ -1,0 +1,7 @@
+from rest_framework import serializers
+from authentification.serializers.compte_serializer import CompteListSerializer
+
+from common.serializers.fichier_serilializers import FichierSerializer
+from gestion_communaute.models.publication import Publication
+
+
